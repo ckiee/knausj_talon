@@ -123,9 +123,9 @@ def letters(m) -> str:
 ctx = Context()
 modifier_keys = {
     # If you find 'alt' is often misrecognized, try using 'alter'.
-    "alt": "alt",  #'alter': 'alt',
+    "alt": "alt",  'alter': 'alt', 'angry': 'alt', # angry is from my
     "control": "ctrl",  #'troll':   'ctrl',
-    "shift": "shift",  #'sky':     'shift',
+    "shift": "shift",  #'sky':     'shift', # collides too easily with say
     "super": "super",
 }
 if app.platform == "mac":
@@ -147,6 +147,8 @@ punctuation_words = {
     "coma": ",",
     "period": ".",
     "full stop": ".",
+    "dit": ".",
+    "dot": ".",
     "semicolon": ";",
     "colon": ":",
     "forward slash": "/",
@@ -158,6 +160,7 @@ punctuation_words = {
     "number sign": "#",
     "percent sign": "%",
     "at sign": "@",
+    "location": "@",
     "and sign": "&",
     "ampersand": "&",
     # Currencies
@@ -191,6 +194,7 @@ symbol_key_words = {
     "bang": "!",
     "down score": "_",
     "underscore": "_",
+    "score": "_",
     "paren": "(",
     "brace": "{",
     "left brace": "{",
@@ -247,12 +251,16 @@ simple_keys = [
 ]
 
 alternate_keys = {
-    "wipe": "backspace",
+    "scratch": "backspace",
     "delete": "backspace",
     #'junk': 'backspace',
     "forward delete": "delete",
     "page up": "pageup",
     "page down": "pagedown",
+
+    "gope": "pageup",
+    "drop": "pagedown",
+    "was": "escape"
 }
 # mac apparently doesn't have the menu key.
 if app.platform in ("windows", "linux"):

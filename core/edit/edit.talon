@@ -2,9 +2,9 @@ find it: edit.find()
 
 next one: edit.find_next()
 
-go word left: edit.word_left()
+(go word left | lope): edit.word_left()
 
-go word right: edit.word_right()
+(go word right | rope): edit.word_right()
 
 go left: edit.left()
 

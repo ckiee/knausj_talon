@@ -303,6 +303,11 @@ class EditActions:
     def find_previous():
         actions.key("ctrl-r")
 
+    def line_insert_down():
+        # HACK: this is bound to slap and I expect it to insert a line wherever I want,
+        # not just the end of the line. probably want to rename this thing later
+        actions.key("enter")
+
 
 @ctx.action_class("app")
 class AppActions:
