@@ -169,6 +169,9 @@ punctuation_words = {
     "hyphen": "-",
     "L paren": "(",
     "left paren": "(",
+    "laip": "(", #
+    "ren": ")", #
+    "wren": ")", #
     "R paren": ")",
     "right paren": ")",
 }
@@ -202,14 +205,18 @@ symbol_key_words = {
     "bracket": "{",
     "left bracket": "{",
     "r brace": "}",
+    "lack": "{", #
+    "rack": "}", #
     "right brace": "}",
     "r brack": "}",
     "r bracket": "}",
     "right bracket": "}",
     "angle": "<",
+    "langle": "<", #
+    "langler": "<", #
     "left angle": "<",
     "less than": "<",
-    "rangle": ">",
+    "rangle": ">", # ootb
     "R angle": ">",
     "right angle": ">",
     "greater than": ">",

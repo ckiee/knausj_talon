@@ -6,7 +6,7 @@ mod = Module()
 setting_meta = mod.setting(
     "emacs_meta",
     type=str,
-    default="esc",
+    default="alt",
     desc="""What to use for the meta key in emacs. Defaults to 'esc', since that should work everywhere. Other options are 'alt' and 'cmd'.""",
 )
 

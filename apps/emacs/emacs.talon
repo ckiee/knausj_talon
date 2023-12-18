@@ -303,6 +303,8 @@ project switch project: user.emacs("project-switch-project")
 
 # ----- VC/GIT SUPPORT ----- #
 vc (annotate | blame): user.emacs("vc-annotate")
+# ----- Org-mode SUPPORT ----- #
+write heading list: user.emacs("consult-org-heading")
 
 # ----- MAJOR & MINOR MODES ----- #
 # python-mode #

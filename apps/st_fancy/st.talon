@@ -1,4 +1,4 @@
-title: /^st$/
+app: /^st-24bits$/
 -
 # Set tags
 tag(): terminal
