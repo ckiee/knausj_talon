@@ -15,6 +15,7 @@ class Actions:
         https://noise.talonvoice.com/static/previews/pop.mp3 for an
         example.
         """
+        print("pop!")
 
 
 noise.register("pop", lambda _: actions.user.noise_trigger_pop())
